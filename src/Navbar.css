@@ -1,0 +1,39 @@
+
+/* Navbar.css */
+
+.navbar {
+  background-color: #333; /* Dark background for contrast */
+  color: #fff; /* White text color */
+  padding: 10px 20px; /* Padding around the navbar */
+}
+
+.navbar ul {
+  list-style: none; /* Remove default list styling */
+  display: flex; /* Align items in a row */
+  align-items: center; /* Center items vertically */
+  padding: 0; /* Remove default padding */
+  margin: 0; /* Remove default margin */
+}
+
+.navbar ul li {
+  margin: 0 15px; /* Spacing between menu items */
+}
+
+.navbar ul li a {
+  text-decoration: none; /* Remove underline from links */
+  color: #fff; /* White text color for links */
+  display: flex; /* Display icon and text inline */
+  align-items: center; /* Align items vertically */
+  gap: 8px; /* Space between icon and text */
+}
+
+.navbar ul li a:hover,
+.navbar ul li a:focus {
+  color: #4caf50; /* Change color on hover/focus for better interaction feedback */
+}
+
+/* Optional: Add a hover effect to the icons for better user interaction */
+.navbar ul li a:hover .fa,
+.navbar ul li a:focus .fa {
+  color: #4caf50;
+}

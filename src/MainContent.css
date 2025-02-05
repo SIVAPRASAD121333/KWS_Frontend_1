@@ -1,0 +1,17 @@
+/* MainContent.css */
+.main-content {
+  text-align: center;
+}
+
+.main-content h2 {
+  margin-top: 0;
+  color: #0056b3; /* Theme color */
+}
+.hiiii{
+  color: black;
+}
+.main-content p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: #666;
+}
